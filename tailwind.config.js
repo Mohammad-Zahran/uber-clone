@@ -1,5 +1,9 @@
+// tailwind.config.js
 module.exports = {
-  content: ["./app/**/*.{js,tsx,ts,jsx}"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}", // Expo Router structure
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },

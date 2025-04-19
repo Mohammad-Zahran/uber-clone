@@ -1,6 +1,3 @@
-const { plugin } = require("postcss");
-const { plugins } = require("./tailwind.config");
-
 module.exports = function (api) {
   api.cache(true);
   return {
